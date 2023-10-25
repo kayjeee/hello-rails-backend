@@ -1,99 +1,121 @@
+<a name="readme-top"></a>
+
+<div align="center">
+
+  <h1><b>hello-rails-back-end</b></h1>
+
+</div>
+
 <!-- TABLE OF CONTENTS -->
 
-# 📗 Table of Contents
+## 📗 Table of Contents
 
-- [📖 About the Project](#about-project)
-
-  - [🛠 Built With](#built-with)
-    - [Key Features](#key-features)
-- [💻 Getting Started](#getting-started)
-  - [Prerequisites](#prerequisites)
-  - [Setup](#setup)
-- [👥 Authors](#authors)
-- [🔭 Future Features](#future-features)
-- [🤝 Contributing](#contributing)
-- [⭐️ Show your support](#support)
-- [🙏 Acknowledgements](#acknowledgements)
-- [FAQ](#faq)
-- [📝 License](#license)
+- [📖 hello-rails-react ](#-Create a hello-rails-back-end-app in RubyonRails)
+  - [🛠 Built With ](#-built-with-)
+    - [Tech Stack ](#tech-stack-)
+    - [Key Features ](#key-features-)
+     - [ Link to hello-react-front-end](#front-end)
+  - [💻 Getting Started ](#-getting-started-)
+    - [Prerequisites](#prerequisites)
+    - [Setup](#setup)
+    - [Install](#install)
+    - [Usage](#usage)
+  - [👥 Author ](#-author-)
+  - [🔭 Future Features ](#-future-features-)
+  - [🤝 Contributing ](#-contributing-)
+  - [⭐️ Show your support ](#️-show-your-support-)
+  - [🙏 Acknowledgments ](#-acknowledgments-)
+  - [📝 License ](#-license-)
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 hello-rails-backend app <a name="about-project"></a>
+# 📖 hello-rails-back-end <a name="about-project"></a>
 
-**hello-rails-backend app:** This project incorporates a Ruby on Rails API app with PostgreSQL database as a back end app to a  react and redux  front end APP. It serves data and responds to its frontend in JSON.
-
-### [Hello Rails Front End React-redux app located here ](https://github.com/kayjeee/hello-react-front-end/pull/1)
+**hello-rails-back-end** 
+hello-rails-back-end is an api app build using rails for backend that displays a random greeting from a collection of greetings.
 
 ## 🛠 Built With <a name="built-with"></a>
 
-  <ul>
-    <li>Ruby</li>
-    <li>Ruby On Rails</li>
-    <li>PostgreSQL</li>
-  </ul>
+### Tech Stack <a name="tech-stack"></a>
+
+<details>
+  <summary>Client</summary>
+    <li><a href="https://www.ruby-lang.org/en/">Ruby</a></li>
+</details>
 
 <!-- Features -->
 
 ### Key Features <a name="key-features"></a>
-
-- **Displays a Random greeting**
-
+- **API endpoint**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## Getting Started
+<!-- Link to front-end -->
+
+## Front-end <a name="front-end"></a>
+
+- This is hello-react-front-end application <a href="https://github.com/kayjeee/hello-react-front-end-kayjeee">Front-end Link</a>
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+
+
+<!-- GETTING STARTED -->
+
+## 💻 Getting Started <a name="getting-started"></a>
 
 To get a local copy up and running, follow these steps.
 
 ### Prerequisites
+
 In order to run this project you need:
-  * A basic understanding of Ruby, Rails and Git
-  * A postgresql connection
-  * Create some data before running to see Greatings
-### Usage
-1. Install Ruby
-1. Install Rails
-2. Clone this repo 
-```
-git clone git@github.com:kayjeee/hello-rails-backend.git
-```
-
-To run the project, execute the following command:
 
 ```
-  rails s
+    ruby
+    rails
+    postgresql
+    bundler
+    rspec
 ```
 
-To add some greetings to your application run the following commands
+### Setup
 
+Clone this repository to your desired folder:
+
+```bash
+  git clone git@github.com:kayjeee/hello-rails-backend.git
 ```
-rails db:drop
-rails db:create
-rails db:migrate
-rails db:seed
+
+### Install
+
+Install this project with:
+
+```bash
+  cd hello-rails-backend
+  bundle install
+  .github/workflows/linters.yml
 ```
+
+it will install the required gemfile for running the project
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- AUTHORS -->
 
-## 👥 Author <a name="authors"></a>
+## 👥 Authors <a name="author"></a>
 
-### 👤 **Kayjeee**
+👤 **kayjee**
 
-- GitHub: [@kayjeee](https://github.com/kayjeee)
-
-
+- GitHub: [@kayjeee](https://github.com/Kayjeee)
+- LinkedIn: [Kagiso Eugene Sebogodi](https://www.linkedin.com/in/Kagiso sebogodi)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 <!-- FUTURE FEATURES -->
 
 ## 🔭 Future Features <a name="future-features"></a>
-
-- **Response to User sessions through tokenization**
+- **Implement the front end**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -103,7 +125,7 @@ rails db:seed
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](https://github.com/kayjeee/hello-rails-backend/issues/2).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -111,7 +133,7 @@ Feel free to check the [issues page](../../issues/).
 
 ## ⭐️ Show your support <a name="support"></a>
 
-Please support this project, your contribution can make a significant difference.
+If you like this project you can share this project to your friend
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -119,27 +141,15 @@ Please support this project, your contribution can make a significant difference
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-Grateful to all for inspiring codebase. Thank you!
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-## FAQ <a name="faq"></a>
-
-- **Can I use this repository?**
-
-Please feel free to fork this repository for your own projects.
-
-- **Will my changes be accepted?**
-
-Definitely! We welcome any improvements if your changes are good and align with the project's goals.
+Acknowledgement goes to microverse for this learning oporturnity
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- LICENSE -->
+<!-- LICENSE mit-->
 
-## 📝 License <a name="license"></a>
+## 📝 License  <a name="license"></a>
 
-This project is [MIT](./MIT.md) licensed.
+This project is [MIT](./LICENSE) licensed. 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
